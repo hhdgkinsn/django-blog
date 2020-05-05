@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px 0;
+  border-bottom: solid #999 .4px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.posts-container {
+  height: auto;
+  column-count: 2;
+  padding: 20px;
+}
+
+.post-wrapper {
+  display: inline-block;
+  margin: 15px 0px;
+  padding: 15px;
+  border: solid #ccc .4px;
+  background-color: #fff;
+  break-inside: avoid-column;
+}
+
+.post-wrapper > h5 {
+  border-bottom: solid #ccc .4px;
+  padding-bottom: 15px;
+}
